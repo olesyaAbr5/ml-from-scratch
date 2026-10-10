@@ -1,26 +1,3 @@
 # ML from scratch
 
-Классические алгоритмы машинного обучения, реализованные с нуля на numpy — без готовых моделей из scikit-learn. Цель — разобраться, как модели устроены внутри: функции потерь, градиентный спуск, обновление весов.
-
-## Проекты
-
-| Папка | Модель | Задача |
-|---|---|---|
-| [linear-regression](linear-regression/) | Линейная регрессия одной переменной | Прогноз прибыли автосервиса по числу автомобилей в городе |
-| [linear-regression-multi](linear-regression-multi/) | Линейная регрессия нескольких переменных | Градиентный спуск и нормальное уравнение |
-| [perceptron-adaline](perceptron-adaline/) | Персептрон и Adaline | Бинарная классификация видов ирисов |
-
-## Как запустить
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-jupyter notebook
-```
-
-Затем откройте ноутбук в папке нужного проекта.
-
-## Стек
-
-Python, numpy, pandas, matplotlib, Jupyter
+Классические алгоритмы машинного обучения, реализованные с нуля на numpy: [линейная регрессия](linear-regression/), [линейная регрессия нескольких переменных](linear-regression-multi/), [персептрон и Adaline](perceptron-adaline/).
